@@ -21,6 +21,7 @@ public class FriendController {
 	@GetMapping("/friend")			
 	public List<Friend> getFriends() {
 		return service.getFriends();
+
 	}
 	
 	@PostMapping("/friend/add")
